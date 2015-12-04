@@ -1,0 +1,75 @@
+@import "../theme/variables";
+
+/*
+ * Animate-library.scss
+ * Cross-browser animation library
+ *
+ * Copyright 2012 Twitter, Inc
+ * Animate.css is licensed under the &#x263A; license
+ * http://licence.visualidiot.com/
+
+ *
+ * Designed and built with all the love in the world by @micr0bitz
+ */
+
+.animated {
+    -webkit-animation-duration: $animation-speed;
+    -moz-animation-duration: $animation-speed;
+    -o-animation-duration: $animation-speed;
+    animation-duration: $animation-speed;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated-fast {
+    -webkit-animation-duration: $animation-speed-fast;
+    -moz-animation-duration: $animation-speed-fast;
+    -o-animation-duration: $animation-speed-fast;
+    animation-duration: $animation-speed-fast;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@import "bounceIn";
+@import "bounceIn.scss";
+@import "bounceInDown.scss";
+@import "bounceInLeft.scss";
+@import "bounceInRight.scss";
+@import "bounceInUp.scss";
+@import "bounceOut.scss";
+@import "bounceOutDown.scss";
+@import "bounceOutLeft.scss";
+@import "bounceOutRight.scss";
+@import "bounceOutUp.scss";
+@import "fadeIn.scss";
+@import "fadeInDown.scss";
+@import "fadeInDownBig.scss";
+@import "fadeInLeft.scss";
+@import "fadeInLeftBig.scss";
+@import "fadeInRight.scss";
+@import "fadeInRightBig.scss";
+@import "fadeInUp.scss";
+@import "fadeInUpBig.scss";
+@import "fadeOut.scss";
+@import "fadeOutDown.scss";
+@import "fadeOutDownBig.scss";
+@import "fadeOutLeft.scss";
+@import "fadeOutLeftBig.scss";
+@import "fadeOutRight.scss";
+@import "fadeOutRightBig.scss";
+@import "fadeOutUp.scss";
+@import "fadeOutUpBig.scss";
+@import "pulse.scss";
+@import "spin.scss";
+@import "tada.scss";
