@@ -32,14 +32,13 @@
 {{ asset_add("theme.css", "theme::scss/font-awesome/font-awesome.scss") }}
 {{ asset_add("theme.css", "theme::scss/bootstrap/bootstrap.scss") }}
 {{ asset_add("theme.css", "theme::scss/animate/animate.scss") }}
-{{ asset_add("build.css", "theme::scss/theme/theme.scss", ["debug"]) }}
+{{ asset_add("build.css", "theme::scss/theme/theme.scss", ["live"]) }}
 
 {{ asset_add("theme.js", "theme::js/vendor/jquery.js") }}
+{{ asset_add("theme.js", "theme::js/vendor/tether.js") }}
+{{ asset_add("theme.js", "theme::js/vendor/bootstrap.js") }}
 {#{{ asset_add("theme.js", "theme::js/vendor/ember.js") }}#}
 {#{{ asset_add("theme.js", "theme::js/vendor/modernizr.js") }}#}
-{{ asset_add("theme.js", "theme::js/bootstrap/util.js") }}
-{{ asset_add("theme.js", "theme::js/bootstrap/tooltip.js") }}
-{{ asset_add("theme.js", "theme::js/bootstrap/*") }}
 {{ asset_add("theme.js", "theme::js/theme/*") }}
 
 {{ html_style(asset_path("theme.css")) }}
