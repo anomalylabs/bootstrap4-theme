@@ -1,6 +1,9 @@
 {
     "name": "anomaly/bootstrap4-theme",
     "type": "streams-addon",
+    "require": {
+        "anomaly/streams-platform": "1.1.*"
+    },
     "autoload": {
         "psr-4": {
             "Anomaly\\Bootstrap4Theme\\": "src/"
